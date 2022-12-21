@@ -1,4 +1,3 @@
-
 module.exports = {
         env: {
           browser: false,
@@ -6,7 +5,6 @@ module.exports = {
           jest: true,
         },
         extends: [
-          'airbnb-base',
           'plugin:jest/all',
         ],
         globals: {
